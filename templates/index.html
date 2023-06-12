@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>口算题生成器</title>
+</head>
+<body>
+    <h1>口算题生成器</h1>
+    <form action="/generate" method="post">
+        <label for="num_questions">题目数量:</label>
+        <input type="number" id="num_questions" name="num_questions" min="1" value="50" max="100"></input>
+        <br/>
+        <label for="max_number">最大数:</label>
+        <input type="number" id="max_number" name="max_number" value="100" min="1" max="100"></input>
+        <br/>
+        <label for="page_number">最大数:</label>
+        <input type="number" id="page_number" value="10" name="page_number" min="1" max="100"></input>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+</body>
